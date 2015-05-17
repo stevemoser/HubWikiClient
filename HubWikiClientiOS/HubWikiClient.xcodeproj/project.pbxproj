@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87173D0E1B095667004891A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9151B0950C0002015D1 /* AppDelegate.swift */; };
-		87173D0F1B09566B004891A1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9171B0950C0002015D1 /* MasterViewController.swift */; };
-		87173D101B09566F004891A1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9191B0950C0002015D1 /* DetailViewController.swift */; };
+		878FA9161B0950C0002015D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9151B0950C0002015D1 /* AppDelegate.swift */; };
+		878FA9181B0950C0002015D1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9171B0950C0002015D1 /* MasterViewController.swift */; };
+		878FA91A1B0950C0002015D1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9191B0950C0002015D1 /* DetailViewController.swift */; };
 		878FA91D1B0950C0002015D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 878FA91B1B0950C0002015D1 /* Main.storyboard */; };
 		878FA91F1B0950C0002015D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FA91E1B0950C0002015D1 /* Images.xcassets */; };
 		878FA9221B0950C0002015D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 878FA9201B0950C0002015D1 /* LaunchScreen.xib */; };
@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		878FA9101B0950C0002015D1 /* HubWikiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HubWikiClient.app; path = HubWikiClientiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		878FA9101B0950C0002015D1 /* HubWikiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HubWikiClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FA9141B0950C0002015D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878FA9151B0950C0002015D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		878FA9171B0950C0002015D1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		878FA91C1B0950C0002015D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878FA91E1B0950C0002015D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		878FA9211B0950C0002015D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		878FA9271B0950C0002015D1 /* HubWikiClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HubWikiClientTests.xctest; path = HubWikiClientiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		878FA9271B0950C0002015D1 /* HubWikiClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubWikiClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FA92C1B0950C0002015D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878FA92D1B0950C0002015D1 /* HubWikiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubWikiClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		878FA90F1B0950C0002015D1 /* HubWikiClientiOS */ = {
+		878FA90F1B0950C0002015D1 /* HubWikiClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 878FA9311B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClientiOS" */;
+			buildConfigurationList = 878FA9311B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClient" */;
 			buildPhases = (
 				878FA90C1B0950C0002015D1 /* Sources */,
 				878FA90D1B0950C0002015D1 /* Frameworks */,
@@ -130,14 +130,14 @@
 			);
 			dependencies = (
 			);
-			name = HubWikiClientiOS;
+			name = HubWikiClient;
 			productName = HubWikiClient;
 			productReference = 878FA9101B0950C0002015D1 /* HubWikiClient.app */;
 			productType = "com.apple.product-type.application";
 		};
-		878FA9261B0950C0002015D1 /* HubWikiClientiOSTests */ = {
+		878FA9261B0950C0002015D1 /* HubWikiClientTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 878FA9341B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClientiOSTests" */;
+			buildConfigurationList = 878FA9341B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClientTests" */;
 			buildPhases = (
 				878FA9231B0950C0002015D1 /* Sources */,
 				878FA9241B0950C0002015D1 /* Frameworks */,
@@ -148,7 +148,7 @@
 			dependencies = (
 				878FA9291B0950C0002015D1 /* PBXTargetDependency */,
 			);
-			name = HubWikiClientiOSTests;
+			name = HubWikiClientTests;
 			productName = HubWikiClientTests;
 			productReference = 878FA9271B0950C0002015D1 /* HubWikiClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -184,8 +184,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				878FA90F1B0950C0002015D1 /* HubWikiClientiOS */,
-				878FA9261B0950C0002015D1 /* HubWikiClientiOSTests */,
+				878FA90F1B0950C0002015D1 /* HubWikiClient */,
+				878FA9261B0950C0002015D1 /* HubWikiClientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87173D101B09566F004891A1 /* DetailViewController.swift in Sources */,
-				87173D0E1B095667004891A1 /* AppDelegate.swift in Sources */,
-				87173D0F1B09566B004891A1 /* MasterViewController.swift in Sources */,
+				878FA91A1B0950C0002015D1 /* DetailViewController.swift in Sources */,
+				878FA9181B0950C0002015D1 /* MasterViewController.swift in Sources */,
+				878FA9161B0950C0002015D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +234,7 @@
 /* Begin PBXTargetDependency section */
 		878FA9291B0950C0002015D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 878FA90F1B0950C0002015D1 /* HubWikiClientiOS */;
+			target = 878FA90F1B0950C0002015D1 /* HubWikiClient */;
 			targetProxy = 878FA9281B0950C0002015D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		878FA9311B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClientiOS" */ = {
+		878FA9311B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				878FA9321B0950C0002015D1 /* Debug */,
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		878FA9341B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClientiOSTests" */ = {
+		878FA9341B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClientTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				878FA9351B0950C0002015D1 /* Debug */,
