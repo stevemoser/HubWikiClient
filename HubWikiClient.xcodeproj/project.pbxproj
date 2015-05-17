@@ -61,8 +61,8 @@
 		878FA9071B0950C0002015D1 = {
 			isa = PBXGroup;
 			children = (
-				878FA9121B0950C0002015D1 /* HubWikiClient */,
-				878FA92A1B0950C0002015D1 /* HubWikiClientTests */,
+				878FA9121B0950C0002015D1 /* HubWikiClientiOS */,
+				878FA92A1B0950C0002015D1 /* HubWikiClientiOSTests */,
 				878FA9111B0950C0002015D1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +76,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		878FA9121B0950C0002015D1 /* HubWikiClient */ = {
+		878FA9121B0950C0002015D1 /* HubWikiClientiOS */ = {
 			isa = PBXGroup;
 			children = (
 				878FA9151B0950C0002015D1 /* AppDelegate.swift */,
@@ -87,7 +87,7 @@
 				878FA9201B0950C0002015D1 /* LaunchScreen.xib */,
 				878FA9131B0950C0002015D1 /* Supporting Files */,
 			);
-			path = HubWikiClient;
+			path = HubWikiClientiOS;
 			sourceTree = "<group>";
 		};
 		878FA9131B0950C0002015D1 /* Supporting Files */ = {
@@ -98,13 +98,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		878FA92A1B0950C0002015D1 /* HubWikiClientTests */ = {
+		878FA92A1B0950C0002015D1 /* HubWikiClientiOSTests */ = {
 			isa = PBXGroup;
 			children = (
 				878FA92D1B0950C0002015D1 /* HubWikiClientTests.swift */,
 				878FA92B1B0950C0002015D1 /* Supporting Files */,
 			);
-			path = HubWikiClientTests;
+			path = HubWikiClientiOSTests;
 			sourceTree = "<group>";
 		};
 		878FA92B1B0950C0002015D1 /* Supporting Files */ = {
@@ -346,7 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HubWikiClient/Info.plist;
+				INFOPLIST_FILE = HubWikiClientiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,7 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HubWikiClient/Info.plist;
+				INFOPLIST_FILE = HubWikiClientiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -374,7 +374,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = HubWikiClientTests/Info.plist;
+				INFOPLIST_FILE = HubWikiClientiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubWikiClient.app/HubWikiClient";
@@ -389,7 +389,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = HubWikiClientTests/Info.plist;
+				INFOPLIST_FILE = HubWikiClientiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubWikiClient.app/HubWikiClient";
@@ -415,6 +415,7 @@
 				878FA9331B0950C0002015D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		878FA9341B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClientTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				878FA9361B0950C0002015D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
