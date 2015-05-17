@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+target 'HubWikiClientiOS' do
+
+end
+
+target 'HubWikiClientiOSTests' do
+pod 'FBSnapshotTestCase'
+end
+

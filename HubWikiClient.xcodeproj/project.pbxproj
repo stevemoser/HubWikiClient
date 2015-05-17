@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0653FA127FBE125FA519E204 /* libPods-HubWikiClientiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE25F659D01996AD137EFFD9 /* libPods-HubWikiClientiOSTests.a */; };
 		87173D0E1B095667004891A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9151B0950C0002015D1 /* AppDelegate.swift */; };
 		87173D0F1B09566B004891A1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9171B0950C0002015D1 /* MasterViewController.swift */; };
 		87173D101B09566F004891A1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FA9191B0950C0002015D1 /* DetailViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1754B6B449E2093912C10AA8 /* Pods-HubWikiClientiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubWikiClientiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HubWikiClientiOSTests/Pods-HubWikiClientiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		878FA9101B0950C0002015D1 /* HubWikiClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HubWikiClient.app; path = HubWikiClientiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FA9141B0950C0002015D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878FA9151B0950C0002015D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,9 +37,11 @@
 		878FA91C1B0950C0002015D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878FA91E1B0950C0002015D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		878FA9211B0950C0002015D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		878FA9271B0950C0002015D1 /* HubWikiClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HubWikiClientTests.xctest; path = HubWikiClientiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		878FA9271B0950C0002015D1 /* HubWikiClientiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubWikiClientiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		878FA92C1B0950C0002015D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878FA92D1B0950C0002015D1 /* HubWikiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubWikiClientTests.swift; sourceTree = "<group>"; };
+		88D99D2F486C9DD87C0E9C5A /* Pods-HubWikiClientiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HubWikiClientiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HubWikiClientiOSTests/Pods-HubWikiClientiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE25F659D01996AD137EFFD9 /* libPods-HubWikiClientiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HubWikiClientiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,18 +56,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0653FA127FBE125FA519E204 /* libPods-HubWikiClientiOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A65CE58986336C558441817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE25F659D01996AD137EFFD9 /* libPods-HubWikiClientiOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		878FA9071B0950C0002015D1 = {
 			isa = PBXGroup;
 			children = (
 				878FA9121B0950C0002015D1 /* HubWikiClientiOS */,
 				878FA92A1B0950C0002015D1 /* HubWikiClientiOSTests */,
 				878FA9111B0950C0002015D1 /* Products */,
+				A03A4D1F16EDE3EB6C56E2B9 /* Pods */,
+				1A65CE58986336C558441817 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				878FA9101B0950C0002015D1 /* HubWikiClient.app */,
-				878FA9271B0950C0002015D1 /* HubWikiClientTests.xctest */,
+				878FA9271B0950C0002015D1 /* HubWikiClientiOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +130,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A03A4D1F16EDE3EB6C56E2B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1754B6B449E2093912C10AA8 /* Pods-HubWikiClientiOSTests.debug.xcconfig */,
+				88D99D2F486C9DD87C0E9C5A /* Pods-HubWikiClientiOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 878FA9341B0950C0002015D1 /* Build configuration list for PBXNativeTarget "HubWikiClientiOSTests" */;
 			buildPhases = (
+				E33D29AD5462DCD60A3C67E6 /* Check Pods Manifest.lock */,
 				878FA9231B0950C0002015D1 /* Sources */,
 				878FA9241B0950C0002015D1 /* Frameworks */,
 				878FA9251B0950C0002015D1 /* Resources */,
+				BFF65BAC59B8F186455BCF72 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,7 +176,7 @@
 			);
 			name = HubWikiClientiOSTests;
 			productName = HubWikiClientTests;
-			productReference = 878FA9271B0950C0002015D1 /* HubWikiClientTests.xctest */;
+			productReference = 878FA9271B0950C0002015D1 /* HubWikiClientiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,6 +235,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BFF65BAC59B8F186455BCF72 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HubWikiClientiOSTests/Pods-HubWikiClientiOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33D29AD5462DCD60A3C67E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		878FA90C1B0950C0002015D1 /* Sources */ = {
@@ -364,6 +423,7 @@
 		};
 		878FA9351B0950C0002015D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1754B6B449E2093912C10AA8 /* Pods-HubWikiClientiOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -377,12 +437,13 @@
 				INFOPLIST_FILE = HubWikiClientiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubWikiClient.app/HubWikiClient";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubWikiClientiOS.app/HubWikiClientiOS";
 			};
 			name = Debug;
 		};
 		878FA9361B0950C0002015D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D99D2F486C9DD87C0E9C5A /* Pods-HubWikiClientiOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -392,7 +453,7 @@
 				INFOPLIST_FILE = HubWikiClientiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubWikiClient.app/HubWikiClient";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HubWikiClientiOS.app/HubWikiClientiOS";
 			};
 			name = Release;
 		};
